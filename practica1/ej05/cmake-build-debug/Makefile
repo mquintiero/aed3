@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej01
+CMAKE_SOURCE_DIR = /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej05
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej01/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej05/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej01/cmake-build-debug/CMakeFiles /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej01/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej05/cmake-build-debug/CMakeFiles /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej05/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej01/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej05/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ej01
+# Target rules for targets named ej05
 
 # Build rule for target.
-ej01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ej01
-.PHONY : ej01
+ej05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ej05
+.PHONY : ej05
 
 # fast build rule for target.
-ej01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej01.dir/build.make CMakeFiles/ej01.dir/build
-.PHONY : ej01/fast
+ej05/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej05.dir/build.make CMakeFiles/ej05.dir/build
+.PHONY : ej05/fast
 
 main.o: main.cpp.o
 
@@ -148,7 +148,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej01.dir/build.make CMakeFiles/ej01.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej05.dir/build.make CMakeFiles/ej05.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej01.dir/build.make CMakeFiles/ej01.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej05.dir/build.make CMakeFiles/ej05.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej01.dir/build.make CMakeFiles/ej01.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ej05.dir/build.make CMakeFiles/ej05.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ej01"
+	@echo "... ej05"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
