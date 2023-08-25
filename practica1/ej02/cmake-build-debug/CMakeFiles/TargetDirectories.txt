@@ -1,0 +1,3 @@
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej02/cmake-build-debug/CMakeFiles/ej02.dir

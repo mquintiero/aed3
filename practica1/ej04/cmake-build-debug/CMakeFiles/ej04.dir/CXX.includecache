@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej04/main.cpp
+iostream
+-
+vector
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej04/vector
+limits
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/Algo_III/practica1/ej04/limits
+
