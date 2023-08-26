@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ej06.dir/main.cpp.o -o ej06 
