@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej10/main.cpp
+iostream
+-
+vector
+/mnt/c/Users/manu_/OneDrive/Escritorio/Facultad/aed3/practica1/ej10/vector
+
