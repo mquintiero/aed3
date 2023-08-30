@@ -45,22 +45,20 @@ int cajastd (vector<int> &w, vector<int> &s, int i, int k){ // k va a ser cuanto
     return memo[i][k];
 }
 
-int max2 (vector<int> list){
-    int max = list[0];
+int sum (vector<int> list){
+    int sum = 0;
     for (int i = 0; i < list.size(); ++i) {
-        if (list[i] > max) {
-            max = list[i];
-        }
+        sum += list[i];
     }
-    return max;
+    return sum;
 }
 int main() {
     vector<int> w = {19, 7, 5, 6, 1};
     vector<int> s = {15, 13, 7, 8, 2};
     int n = w.size();
-    memo = vector<vector<int>>(n, vector<int>(max2(w),undefined));
-    int sol = cajas(w, s, 0, max2(w));
-    int soltd = cajastd(w, s, 0, max2(w));
+    memo = vector<vector<int>>(n, vector<int>(sum(w) + 1,undefined));
+    int sol = cajas(w, s, 0, sum(w));
+    int soltd = cajastd(w, s, 0, sum(w));
     cout << sol << endl;
     cout << soltd << endl;
     return 0;
