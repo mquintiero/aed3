@@ -1,0 +1,3 @@
+C:/Users/sofim/OneDrive/Escritorio/aed3/ej01tp2/cmake-build-debug/CMakeFiles/ej01tp2.dir
+C:/Users/sofim/OneDrive/Escritorio/aed3/ej01tp2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sofim/OneDrive/Escritorio/aed3/ej01tp2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
