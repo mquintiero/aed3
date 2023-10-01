@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ej14.dir/main.cpp.o -o ej14 
